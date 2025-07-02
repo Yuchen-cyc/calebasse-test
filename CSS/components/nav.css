@@ -80,8 +80,84 @@
   height: 100%;
 }
 
-.btn-user {
-  margin-right: 70px;
+.user {
+  display: flex;
+  height: 117px;
+  justify-content: space-evenly;
+}
+
+.user-icon button {
+  width: 50px;
+  height: 100%;
   align-items: center;
   border: none;
+  background: none;
+}
+
+.user-icon-image {
+  align-items: center;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.user-icon-image:hover {
+  font-size: 38px;
+  transition: all 0.1s ease-in-out;
+}
+
+.btn-user {
+  margin-right: 50px;
+  align-items: center;
+  border: none;
+  background: none;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.btn-user:hover {
+  text-decoration: underline;
+}
+
+.panier {
+  display: flex;
+  height: 117px;
+  justify-content: space-evenly;
+}
+
+.panier-icon button {
+  width: 50px;
+  height: 100%;
+  align-items: center;
+  border: none;
+  background: none;
+}
+
+.panier-icon-image {
+  align-items: center;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.panier-icon-image:hover {
+  font-size: 38px;
+  transition: all 0.1s ease-in-out;
+}
+
+.btn-panier {
+  margin-right: 50px;
+  align-items: center;
+  border: none;
+  background: none;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.btn-panier:hover {
+  text-decoration: underline;
 }

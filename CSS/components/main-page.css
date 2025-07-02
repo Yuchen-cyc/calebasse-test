@@ -1,0 +1,49 @@
+/* .main-page {
+  display: flex;
+  align-items: flex-start;
+} */
+
+.main-page-intro {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  justify-content: space-evenly;
+}
+
+.clou-image img {
+  width: 450px;
+  height: 420px;
+}
+
+.clou-name {
+  width: 500px;
+  height: 420px;
+}
+
+.vertus-list {
+  margin-left: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.vertus-list li {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.vertus-list li::before {
+  content: "\f14a";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 400;
+  color: #abc052;
+  position: absolute;
+  left: 0;
+  top: 3;
+}
+
+.sign {
+  width: 90%;
+  margin-top: 20px;
+}
