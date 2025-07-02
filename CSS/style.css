@@ -1,4 +1,6 @@
 @import url("components/nav.css");
+@import url("components/main-page.css");
+@import url("components/accordion.css");
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
