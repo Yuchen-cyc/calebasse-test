@@ -1,8 +1,24 @@
 @import url("components/nav.css");
 @import url("components/main-page.css");
 @import url("components/accordion.css");
+@import url("components/footbar.css");
 body {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+.container {
+  margin: 0 auto;
+  /* width: 100%;
+  max-width: 1700px; */
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }

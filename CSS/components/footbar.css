@@ -1,0 +1,30 @@
+.footbar {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(241, 240, 240);
+  height: 130px;
+  align-items: center;
+}
+
+.footbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.footbar-contact {
+  align-items: center;
+}
+
+.contact-icon {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.con-logo {
+  font-size: 40px;
+  color: #228e57;
+  text-align: center;
+}
