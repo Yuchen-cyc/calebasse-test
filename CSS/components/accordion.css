@@ -1,5 +1,11 @@
+.intro-detail {
+  width: 100%;
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+
 .accordion {
-  width: 650px;
+  width: 40%;
   margin: 30px 100px 30px 100px;
   font-family: sans-serif;
 }
@@ -55,4 +61,13 @@
 
 .accordion input:checked + .accordion-label .arrow {
   transform: rotate(-135deg);
+}
+
+.story {
+  width: 550px;
+  padding-right: 90px;
+}
+
+.story p {
+  text-align: justify;
 }
