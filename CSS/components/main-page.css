@@ -11,8 +11,8 @@
 }
 
 .clou-image img {
-  width: 450px;
-  height: 420px;
+  width: 100%;
+  height: 90%;
 }
 
 .clou-name {
@@ -52,4 +52,19 @@
   display: flex;
   justify-content: space-evenly;
   margin-top: 30px;
+}
+
+.main-page-intro,
+.intro-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 160px;
+}
+
+.clou-image,
+.clou-name,
+.story {
+  flex: 1;
+  max-width: 500px;
 }

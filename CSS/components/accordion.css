@@ -9,6 +9,8 @@
   /* margin: 30px 0px 30px 0px; */
   margin-top: 18px;
   font-family: sans-serif;
+  flex: 1;
+  max-width: 500px;
 }
 
 .accordion input {
